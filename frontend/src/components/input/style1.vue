@@ -42,7 +42,7 @@
 
 <template>
     <div class="inputGroup">
-        <input type="text" required="" autocomplete="off">
+        <input type="text" required="true" autocomplete="off">
         <label for="name">Name</label>
     </div>
 </template>

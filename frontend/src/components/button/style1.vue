@@ -1,3 +1,7 @@
+<script setup>
+    defineProps(['text'])
+</script>
+
 <style scoped>
 button {
     position: relative;
@@ -28,5 +32,5 @@ button:active {
 </style>
 
 <template>
-    <button> Confirm </button>
+    <button>{{ text }}</button>
 </template>

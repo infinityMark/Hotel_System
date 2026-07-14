@@ -1,3 +1,9 @@
+<script setup>
+import { test } from 'vitest';
+
+    defineProps(['text'])
+</script>
+
 <style scoped>
 button {
     padding: 17px 40px;
@@ -26,5 +32,5 @@ button:active {
 </style>
 
 <template>
-    <button>Button</button>
+    <button>{{ test }}</button>
 </template>
