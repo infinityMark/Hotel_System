@@ -1,0 +1,119 @@
+# ==========================================
+# 1. OS GENERATED FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+*.swp
+*.swo
+
+# ==========================================
+# 2. IDE FILES (VS Code + IntelliJ)
+# ==========================================
+.vscode/
+.history/
+*.code-workspace
+
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+**/workspace.xml
+**/tasks.xml
+**/usage.statistics.xml
+**/dictionaries/
+**/shelf/
+**/dataSources/
+**/dataSources.local.xml
+
+# ==========================================
+# 3. ENVIRONMENT VARIABLES & SECRETS
+# ==========================================
+*.pem
+*.key
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# 4. SPRING BOOT / JAVA (Backend)
+# ==========================================
+# Compiled class files
+*.class
+
+# Build output directories (Maven & Gradle)
+/target/
+/build/
+!/target/classes/  # Exclude if you need to keep certain resources, but generally ignore all
+/out/
+
+# Package files
+*.jar
+*.war
+*.ear
+*.nar
+
+# Maven / Gradle wrapper files (DO NOT ignore these, they are needed to build)
+# !/.mvn/wrapper/maven-wrapper.jar
+# !/mvnw
+# !/mvnw.cmd
+# !/gradlew
+# !/gradlew.bat
+
+# IDE specific for Spring
+.apt_generated/
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ==========================================
+# 5. VUE 3 / NODE.JS (Frontend)
+# ==========================================
+# Adjust the paths below based on your folder structure:
+# If your Vue app is inside a /frontend folder, use /frontend/dist/
+# If it's in the root, use /dist/ directly.
+
+# Node modules
+/frontend/node_modules/
+node_modules/
+
+# Vue build output
+/frontend/dist/
+/dist/
+/frontend/build/
+/build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Local environment overrides (specific to Vue)
+/frontend/.env.local
+/frontend/.env.*.local
+
+# ==========================================
+# 6. POSTGRESQL / DATABASE DUMP FILES
+# ==========================================
+# Ignore database dumps (backups) so you don't commit large binaries
+*.dump
+*.sql.gz
+*.sql.zip
+
+# If you mount PostgreSQL data locally via Docker, ignore the data folder
+/postgres-data/
+/data/pg/
+
+# ==========================================
+# 7. GENERAL APPLICATION CACHE
+# ==========================================
+.idea/cache/
+.cache/
+*.hprof
+heapdump.hprof
